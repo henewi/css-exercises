@@ -12,10 +12,6 @@ a {
   color: black;
 }
 
-ul {
-  list-style: none;
-}
-
 img {
   width: 600px;
 }
@@ -72,6 +68,17 @@ input {
 ul {
   list-style-position: inside;
   list-style-type: none;
+  list-style: none;
   margin-left: 0;
   padding-left: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+div.content {
+  display: flex;
+  justify-content: center;
+  
 }
